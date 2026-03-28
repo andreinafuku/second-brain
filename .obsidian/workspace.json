@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "48ab2ec3e5bf3d30",
+        "id": "60d7942e21bd6829",
         "type": "tabs",
         "children": [
           {
-            "id": "d2376ab060e0250b",
+            "id": "236f04cf94fa44aa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "working/OCI/criando-cluster-oke/01-criar-cluster-oke-vcn-customizada.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01-criar-cluster-oke-vcn-customizada"
-            }
-          },
-          {
-            "id": "3343bdb612f2b7cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-08-03-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "daily-08-03-2026"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -93,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 597.5
   },
   "right": {
     "id": "d22c8ae13b63ffb1",
@@ -189,18 +170,52 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
     }
   },
-  "active": "3343bdb612f2b7cd",
+  "active": "236f04cf94fa44aa",
   "lastOpenFiles": [
+    "Pesquisa/litellm-como-ai-gateway.md",
+    "CLAUDE.md.tmp.15764.1774741940630",
+    "Pesquisa/ai-gateway-implementacoes-modernas.md.tmp.15764.1774741937885",
+    "Glossario/pii-personally-identifiable-information.md.tmp.15764.1774741903883",
+    "Pesquisa/litellm-como-ai-gateway.md.tmp.15764.1774741892971",
+    "Glossario/pii-personally-identifiable-information.md",
+    "PII-personally-identifiable-information.md",
+    "Pesquisa/ai-gateway-implementacoes-modernas.md",
+    "Pesquisa/question-is-liteLLM-ai-gateway-implementation.md",
+    "Referencias/referencia-litellm-docs.md",
+    "Pesquisa/litellm.md",
+    "Pesquisa/estrategias-modernizacao-sistemas.md",
+    "Pesquisa/ai-gateway.md",
+    "Pesquisa/ai-gateway/ai-gateway.md",
+    "Welcome.md",
+    "2026-03-08.md",
+    "Ideias/WSL2-Setup-Guide-IntelligencePortal.md",
+    "Pesquisa/modernizacao-sistemas/estrategias-modernizacao-sistemas.md",
+    "Pesquisa/modernizacao-sistemas",
+    "Pesquisa/ai-gateway/ai-gateway-modern-implementation.md",
+    "Pesquisa/ai-gateway/Sem título.md",
     "working/OCI/criando-cluster-oke/01-criar-cluster-oke-vcn-customizada.md",
-    "daily-08-03-2026.md"
+    "guia-do-vault.md",
+    "learning/ai-first-applications/chatgpt - annonimization and miminal context.md",
+    "Pesquisa/ai-gateway/Sem título.base",
+    "Templates/template-pesquisa.md",
+    "Pesquisa/ai-gateway/Sem título.canvas",
+    "Pesquisa/ai-gateway",
+    "guia-do-vault.md.tmp.15764.1774698992826",
+    "Diario/2026-03-28.md.tmp.15764.1774698901976",
+    "Referencias/referencia-martin-fowler-strangler.md.tmp.15764.1774698891443",
+    "CLAUDE.md",
+    "Referencias/referencia-aws-ai-gateway.md",
+    "Glossario/strangler-fig-pattern.md",
+    "Glossario/rate-limiting.md",
+    "Glossario/branch-by-abstraction.md"
   ]
 }
