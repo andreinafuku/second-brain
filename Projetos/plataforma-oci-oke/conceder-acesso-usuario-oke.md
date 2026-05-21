@@ -1,3 +1,16 @@
+---
+title: "Conceder Acesso de Usuario para Administracao OKE"
+date: 2026-04-23
+tags:
+  - projeto
+  - oci
+  - oke
+  - iam
+  - runbook
+  - status/rascunho
+area: plataforma
+---
+
 # Guia: Conceder Acesso de Usuário para Administração OKE
 
 ## 📋 Visão Geral
@@ -875,11 +888,11 @@ oci ce cluster list \
 
 ### Documentos Relacionados no Projeto
 
-- [Overview OKE](../../ARQUITETURA/oke/README.md) - Arquitetura geral da infraestrutura OKE do projeto
-- [Criar Cluster OKE com VCN Customizada](../../ARQUITETURA/oke/01-criar-cluster-oke-vcn-customizada.md) - Procedimento prático de criação de cluster
-- [Configurar Local Peering Gateway](../../ARQUITETURA/oke/02-configurar-local-peering-gateway.md) - Conectividade entre VCNs
-- [Troubleshooting OKE Deploy](../../FAQ-TROUBLESHOOTING/OKE-DEPLOY-ERRORS.md) - Erros comuns de deploy
-- [Conectividade Oracle Database](../../FAQ-TROUBLESHOOTING/oracle-database-connectivity.md) - Conectar cluster ao banco de dados
+- [[projeto-plataforma-oci-oke]] - Contexto geral da iniciativa
+- [[arquitetura-rede-oke-xrt-interno]] - Topologia de rede e conectividade
+- [[estrategia-versionamento-imagens-oci-oke]] - Diretrizes de versionamento e promocao de imagens
+- [Criar Cluster OKE com VCN Customizada](./criando-cluster-oke/01-criar-cluster-oke-vcn-customizada.md) - Procedimento prático de criação de cluster
+- [Configurar Local Peering Gateway](./criando-cluster-oke/02-configurar-local-peering-gateway.md) - Conectividade entre VCNs
 
 ### Ferramentas Úteis
 

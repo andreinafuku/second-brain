@@ -1,3 +1,15 @@
+---
+title: "Arquitetura de Rede OKE e xrt-interno"
+date: 2026-04-23
+tags:
+  - arquitetura
+  - oci
+  - oke
+  - rede
+  - status/rascunho
+area: arquitetura
+---
+
 # Diagrama da Arquitetura de Rede
 
 ## Visão Geral Completa

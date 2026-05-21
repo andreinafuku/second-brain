@@ -1,4 +1,22 @@
-  
+---
+title: "Anonimizacao de Dados para LLMs em Sistemas Financeiros"
+date: 2026-04-13
+tags:
+  - pesquisa
+  - ai
+  - arquitetura
+  - seguranca
+  - status/rascunho
+area: arquitetura
+---
+
+# Anonimizacao de Dados para LLMs em Sistemas Financeiros
+
+## Contexto
+
+O Intelligence Portal v2 fara uso intensivo de modelos LLM. Existe interesse em utilizar provedores externos como OpenAI, Anthropic e Google, mas isso exige uma estrategia clara de anonimização para dados financeiros sensiveis.
+
+## Registro bruto da analise
 
 O inteligence portal v2 fará uso intensivo de modelos LLM. Temos percebido que o provedor Oracle OCI Generative AI possui desempenho e qualidade inferior aos modelos disponiveis pela OpenAI, Anthropic e Google. A vantagem do uso do Oracle OCI está no fato dos modelos serem estáticos, isto é, são "executados" nos datacenters da Oracle, em que podemos escolher uma regiao do nosso pais, Brasil. Para usar modelos da OpenAI, Anthropic, Google, Gemini, será necessário um plano para que os dados do sistema, que são financeiros, sejam anonimizados antes de serem utilizados pelos modelos. Considerando a hipótese de desenvolvermos um novos sistema (frontend, backend, database, etc), que sugestoes voce tem sobre anonimização? Teremos que considerar este quesito na modelagem do sistema ? (OO e database)?
 
@@ -535,3 +553,8 @@ Se quiser, eu posso montar um **desenho de arquitetura de referência** para e
 - tabelas principais do banco
     
 - fluxo de chamada para OpenAI/Anthropic/Google/OCI.
+
+## Notas relacionadas
+
+- [[ai-gateway]]
+- [[ai-gateway-arquitetura-financeiro]]

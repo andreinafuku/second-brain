@@ -20,7 +20,8 @@
       "WebFetch(domain:dev.auth0.com)",
       "WebFetch(domain:workos.com)",
       "WebFetch(domain:portswigger.net)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(cmd.exe:*)"
     ]
   },
   "enabledPlugins": {

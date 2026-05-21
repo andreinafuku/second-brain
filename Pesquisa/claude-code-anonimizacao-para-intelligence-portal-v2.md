@@ -1,3 +1,27 @@
+---
+title: "Claude Code - Anonimizacao para Intelligence Portal v2"
+date: 2026-04-13
+tags:
+  - pesquisa
+  - ai
+  - arquitetura
+  - seguranca
+  - status/revisado
+area: arquitetura
+---
+
+# Claude Code - Anonimizacao para Intelligence Portal v2
+
+## Contexto
+
+Documento consolidado sobre estrategia de anonimização, tokenização e roteamento de LLMs externos para um portal financeiro.
+
+## Resumo
+
+Esta nota consolida uma proposta arquitetural para uso de LLMs externos com dados financeiros, combinando tokenização reversivel, fator proporcional para valores numericos, gateway central de IA e separação entre computacao deterministica local e interpretacao remota por LLM.
+
+## Conteudo consolidado
+
 # Intelligence Portal v2 — Estratégia de Anonimização para Uso de LLMs Externos
 
 ## 1. Contexto e motivação
@@ -302,3 +326,9 @@ O backend faz a montagem final da tabela, revertendo os valores perturbados e su
 4. **Prototipação do LLM Gateway** — roteamento Oracle OCI vs. externos, com pipeline de anonimização plugável.
 5. **Definição de prompts e tools** — templates para os cenários de uso identificados (saldo caixa, análise multi-período, etc.).
 6. **Testes de re-identificação** — validar que dados anonimizados não permitem cruzamento com fontes públicas.
+
+## Notas relacionadas
+
+- [[anonimizacao-de-dados-para-llms-em-sistemas-financeiros]]
+- [[anonimizacao-e-contexto-minimo-para-llms]]
+- [[ai-gateway-arquitetura-financeiro]]

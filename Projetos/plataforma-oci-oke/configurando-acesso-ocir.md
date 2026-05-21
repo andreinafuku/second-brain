@@ -1,3 +1,15 @@
+---
+title: "Configurando Acesso ao Oracle Container Registry"
+date: 2026-04-23
+tags:
+  - projeto
+  - oci
+  - ocir
+  - runbook
+  - status/rascunho
+area: plataforma
+---
+
 # Configurando Acesso ao Oracle Container Registry (OCIR)
 
 Este guia apresenta o processo completo para configurar o acesso ao Oracle Container Registry (OCIR), tanto localmente quanto no Kubernetes (OKE).

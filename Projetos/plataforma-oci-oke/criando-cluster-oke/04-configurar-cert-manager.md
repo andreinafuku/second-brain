@@ -1,3 +1,16 @@
+---
+title: "Configurar Cert-Manager para TLS Automatico"
+date: 2026-04-23
+tags:
+  - projeto
+  - oci
+  - oke
+  - tls
+  - runbook
+  - status/rascunho
+area: plataforma
+---
+
 # Configurar Cert-Manager para TLS/SSL Automático
 
 ## Introdução

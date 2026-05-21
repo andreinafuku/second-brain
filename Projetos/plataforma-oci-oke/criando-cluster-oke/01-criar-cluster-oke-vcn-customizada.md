@@ -1,3 +1,15 @@
+---
+title: "Criar Cluster OKE com VCN Customizada"
+date: 2026-04-23
+tags:
+  - projeto
+  - oci
+  - oke
+  - runbook
+  - status/rascunho
+area: plataforma
+---
+
 # Criar Cluster OKE com VCN Customizada
 
 ## Introdução

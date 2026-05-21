@@ -1,3 +1,15 @@
+---
+title: "Criando Cluster OKE com VCN Customizada"
+date: 2026-04-23
+tags:
+  - projeto
+  - oci
+  - oke
+  - runbook
+  - status/rascunho
+area: plataforma
+---
+
 # Documentação: Cluster OKE com VCN Customizada
 
 ## Visão Geral
@@ -57,7 +69,7 @@ O cluster OKE inicial foi criado via **Quick Create** com VCN automática usando
 
 #### Referência Técnica
 
-7. **[`07-diagrama-arquitetura-rede.md`](./07-diagrama-arquitetura-rede.md)**
+7. **[[arquitetura-rede-oke-xrt-interno]]**
    - Diagrama completo da topologia de rede
    - Endereçamento IP e subnets
    - Fluxo de tráfego

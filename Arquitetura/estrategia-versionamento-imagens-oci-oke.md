@@ -1,3 +1,15 @@
+---
+title: "Estrategia de Versionamento e Gestao de Imagens OCI OKE"
+date: 2026-04-23
+tags:
+  - arquitetura
+  - oci
+  - oke
+  - versionamento
+  - status/rascunho
+area: arquitetura
+---
+
 # Estratégia de Versionamento e Gestão de Imagens
 
 Este documento apresenta as melhores práticas para versionamento e gestão de imagens Docker no Oracle Container Registry (OCIR) integrado com Kubernetes (OKE), focando em ambientes de desenvolvimento, homologação e produção.

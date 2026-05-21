@@ -11,35 +11,13 @@
             "id": "019ed6f90ba7302c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Sem título 1.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0.5
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Sem título 1"
-            }
-          },
-          {
-            "id": "29d834883a93ebc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pesquisa/auth0-lesson-01-what-is-auth0.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "auth0-lesson-01-what-is-auth0"
+              "title": "Nova aba"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,10 +179,37 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "29d834883a93ebc2",
+  "active": "019ed6f90ba7302c",
   "lastOpenFiles": [
-    "Pesquisa/conciliacao-bancaria.md",
-    "Pesquisa/auth0-study-guide.md",
+    "Diario/Sem título.md",
+    "Templates/template-diario.md",
+    "Diario/2026-03-28.md",
+    "Glossario/indice-glossario.md",
+    "Projetos/plataforma-oci-oke/projeto-plataforma-oci-oke.md",
+    "Arquitetura/arquitetura-rede-oke-xrt-interno.md",
+    "Projetos/plataforma-oci-oke/conceder-acesso-usuario-oke.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/README.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/07-diagrama-arquitetura-rede.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/06-migrar-aplicacao.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/05-configurar-monitoring.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/04-configurar-cert-manager.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/03-configurar-ingress-nginx.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/02-configurar-local-peering-gateway.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/01-criar-cluster-oke-vcn-customizada.md",
+    "Arquitetura/estrategia-versionamento-imagens-oci-oke.md",
+    "Projetos/plataforma-oci-oke/configurando-acesso-ocir.md",
+    "Projetos/plataforma-oci-oke/deploy-oke.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke",
+    "Projetos/plataforma-oci-oke",
+    "Templates/template-adr.md",
+    "Templates/template-projeto.md",
+    "Referencias/mapa-aulas-elemar-masterclasses.canvas",
+    "rotina-revisao-semanal-do-vault.md",
+    "Templates/template-revisao-semanal.md",
+    "Projetos/indice-projetos.md",
+    "Pesquisa/indice-pesquisa.md",
+    "Pesquisa/auth0-lesson-01-what-is-auth0.md",
+    "Referencias/indice-referencias.md",
     "Pesquisa/auth0-lesson-06-jwt-deep-dive.md.tmp.45916.1776114886892",
     "Pesquisa/auth0-lesson-05-tokens.md.tmp.45916.1776114882708",
     "Pesquisa/auth0-lesson-05-tokens.md.tmp.45916.1776114880798",
@@ -213,35 +218,9 @@
     "Pesquisa/auth0-lesson-04-auth-flows.md.tmp.45916.1776114876132",
     "Pesquisa/auth0-lesson-04-auth-flows.md.tmp.45916.1776114875162",
     "Pesquisa/auth0-lesson-01-what-is-auth0.md.tmp.45916.1776114863831",
-    "Pesquisa/auth0-lesson-06-jwt-deep-dive.md",
-    "Pesquisa/auth0-lesson-05-tokens.md",
-    "Pesquisa/auth0-lesson-04-auth-flows.md",
-    "Pesquisa/auth0-lesson-03-authentication-protocols.md",
-    "Pesquisa/auth0-lesson-02-core-concepts.md",
-    "Pesquisa/auth0-lesson-01-what-is-auth0.md",
-    "Pesquisa/auth0-lesson-12-social-enterprise-connections.md",
-    "Pesquisa/auth0-lesson-12-social-enterprise-connections.md.tmp.45916.1776114475986",
-    "Pesquisa/auth0-lesson-6-jwt-deep-dive.md",
-    "Pesquisa/auth0-lesson-11-security-best-practices.md",
-    "Pesquisa/auth0-lesson-5-tokens.md",
-    "Pesquisa/auth0-lesson-10-roles-permissions-rbac.md",
-    "Pesquisa/auth0-lesson-4-auth-flows.md",
-    "Pesquisa/auth0-lesson-4-auth-flows.md.tmp.45916.1776114191856",
-    "Pesquisa/auth0-lesson-09-rules-actions-hooks.md",
-    "Pesquisa/auth0-lesson-3-authentication-protocols.md",
-    "Pesquisa/auth0-lesson-08-web-app-integration.md",
-    "Pesquisa/auth0-lesson-2-core-concepts.md",
-    "Pesquisa/auth0-lesson-07-hands-on-setup.md",
-    "Pesquisa/auth0-lesson-1-what-is-auth0.md",
-    "Pesquisa/pluggy-open-finance-api.md",
-    "Pesquisa/open-finance-brasil.md",
-    "Aulas Elemar.md",
     "learning/Sem título.canvas",
     "Sem título 1.canvas",
-    "2026-03-08.md",
     "Sem título.canvas",
-    "Pesquisa/ai-gateway.md",
-    "Pesquisa/litellm-como-ai-gateway.md",
     "Pesquisa/ai-gateway/Sem título.canvas"
   ]
 }

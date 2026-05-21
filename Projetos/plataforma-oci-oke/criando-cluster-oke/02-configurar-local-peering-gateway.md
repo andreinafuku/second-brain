@@ -1,3 +1,16 @@
+---
+title: "Configurar Local Peering Gateway"
+date: 2026-04-23
+tags:
+  - projeto
+  - oci
+  - oke
+  - rede
+  - runbook
+  - status/rascunho
+area: plataforma
+---
+
 # Configurar Local Peering Gateway (LPG)
 
 ## Introdução

@@ -1,3 +1,16 @@
+---
+title: "Migrar Aplicacao para Novo Cluster OKE"
+date: 2026-04-23
+tags:
+  - projeto
+  - oci
+  - oke
+  - migracao
+  - runbook
+  - status/rascunho
+area: plataforma
+---
+
 # Migrar Aplicação DeepTreasury para Novo Cluster OKE
 
 ## Introdução

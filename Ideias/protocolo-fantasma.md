@@ -1,10 +1,20 @@
-# 📜 Minha Visão Pessoal
+---
+title: "Protocolo Fantasma"
+date: 2026-04-13
+tags:
+  - ideia
+  - pessoal
+  - status/rascunho
+area: pessoal
+---
+
+# 📜 Protocolo Fantasma
 
 ## Princípio Fundamental
 
 Eu escolho viver com **propósito**, **fé** e **consciência**.
 
-Não quero apenas passar pela vida — quero construí-la com intenção, caráter e significado.
+Não quero apenas passar pela vida, quero construí-la com intenção, caráter e significado.
 
 ## Meu Caráter
 
@@ -25,7 +35,7 @@ Minha motivação nasce de dentro. Está em:
 
 ## Saúde Financeira e Legado
 
-Busco saúde financeira com **responsabilidade** e **visão de longo prazo** — não por ambição vazia, mas para oferecer:
+Busco saúde financeira com **responsabilidade** e **visão de longo prazo**, não por ambição vazia, mas para oferecer:
 
 - Dignidade
 - Educação
@@ -37,7 +47,7 @@ Quero preparar o futuro deles com sabedoria hoje.
 
 Meu maior legado será a **formação de pessoas íntegras, honestas e fortes de caráter**.
 
-Quero que meus filhos reconheçam em mim um referencial seguro. E, quando eu estiver velho, quero que se aproximem por **amor, respeito e admiração** — porque encontraram em mim:
+Quero que meus filhos reconheçam em mim um referencial seguro. E, quando eu estiver velho, quero que se aproximem por **amor, respeito e admiração**, porque encontraram em mim:
 
 - Presença
 - Direção
@@ -47,11 +57,11 @@ Quero que meus filhos reconheçam em mim um referencial seguro. E, quando eu est
 
 Que minha vida seja marcada por:
 
-- ✓ Construção
-- ✓ Serviço
-- ✓ Evolução
-- ✓ Fé
+- Construção
+- Serviço
+- Evolução
+- Fé
 
 **Que eu nunca negocie meu caráter.**
 
-Que eu termine minha jornada melhor do que comecei — e deixando o mundo, e minha família, mais fortes do que encontrei.
+Que eu termine minha jornada melhor do que comecei, e deixando o mundo e minha família mais fortes do que encontrei.

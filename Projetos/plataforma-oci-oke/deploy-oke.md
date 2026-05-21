@@ -1,3 +1,15 @@
+---
+title: "Deploy no OCI OKE"
+date: 2026-04-23
+tags:
+  - projeto
+  - oci
+  - oke
+  - runbook
+  - status/rascunho
+area: plataforma
+---
+
 # Roteiro Otimizado e Detalhado para Deploy no OCI OKE
 
 Este documento apresenta um roteiro completo e otimizado para publicar aplicações no Oracle Kubernetes Engine (OKE), organizado em fases sequenciais com boas práticas e recomendações.

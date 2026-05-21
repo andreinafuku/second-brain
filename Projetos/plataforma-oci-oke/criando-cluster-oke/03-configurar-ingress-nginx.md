@@ -1,3 +1,16 @@
+---
+title: "Configurar NGINX Ingress Controller"
+date: 2026-04-23
+tags:
+  - projeto
+  - oci
+  - oke
+  - ingress
+  - runbook
+  - status/rascunho
+area: plataforma
+---
+
 # Configurar NGINX Ingress Controller
 
 ## Introdução

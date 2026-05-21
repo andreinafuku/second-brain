@@ -1,3 +1,16 @@
+---
+title: "Configurar Monitoring com Prometheus e Grafana"
+date: 2026-04-23
+tags:
+  - projeto
+  - oci
+  - oke
+  - observabilidade
+  - runbook
+  - status/rascunho
+area: plataforma
+---
+
 # Configurar Monitoring com Prometheus e Grafana
 
 ## Introdução

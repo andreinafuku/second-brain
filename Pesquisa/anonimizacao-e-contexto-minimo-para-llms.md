@@ -1,4 +1,22 @@
-  
+---
+title: "Anonimizacao e Contexto Minimo para LLMs"
+date: 2026-04-13
+tags:
+  - pesquisa
+  - ai
+  - arquitetura
+  - privacidade
+  - status/rascunho
+area: arquitetura
+---
+
+# Anonimizacao e Contexto Minimo para LLMs
+
+## Contexto
+
+Nota de pesquisa com foco em fronteira de dados sensiveis, contexto minimo e criterio de roteamento entre LLM interno e externo.
+
+## Registro bruto da analise
 
 O inteligence portal v2 fará uso intensivo de modelos LLM. Temos percebido que o provedor Oracle OCI Generative AI possui desempenho e qualidade inferior aos modelos disponiveis pela OpenAI, Anthropic e Google. A vantagem do uso do Oracle OCI está no fato dos modelos serem estáticos, isto é, são "executados" nos datacenters da Oracle, em que podemos escolher uma regiao do nosso pais, Brasil. Para usar modelos da OpenAI, Anthropic, Google, Gemini, será necessário um plano para que os dados do sistema, que são financeiros, sejam anonimizados antes de serem utilizados pelos modelos. Considerando a hipótese de desenvolvermos um novos sistema (frontend, backend, database, etc), que sugestoes voce tem sobre anonimização? Teremos que considerar este quesito na modelagem do sistema ? (OO e database)?
 
@@ -1159,3 +1177,8 @@ Pronto. Aqui está o arquivo em Markdown:
 Baixar o documento .md
 
 No próximo passo, sigo com o desenho arquitetural completo.
+
+## Notas relacionadas
+
+- [[anonimizacao-de-dados-para-llms-em-sistemas-financeiros]]
+- [[ai-gateway-arquitetura-financeiro]]
