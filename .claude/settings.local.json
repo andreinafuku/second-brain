@@ -21,7 +21,9 @@
       "WebFetch(domain:workos.com)",
       "WebFetch(domain:portswigger.net)",
       "Bash(mv:*)",
-      "Bash(cmd.exe:*)"
+      "Bash(cmd.exe:*)",
+      "Skill(obsidian:obsidian-markdown)",
+      "Skill(commit-commands:commit)"
     ]
   },
   "enabledPlugins": {

@@ -1,0 +1,366 @@
+```html
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aula 2 — MasterClass Elemar Jr.</title>
+  <style>
+    :root{
+      --bg:#0b1020;
+      --card:#121933;
+      --text:#eef2ff;
+      --muted:#b8c0ff;
+      --accent:#7aa2ff;
+      --accent2:#4ee1c1;
+      --border:rgba(255,255,255,.08);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:linear-gradient(180deg,#0b1020,#0f1530);
+      color:var(--text);
+    }
+    .deck{
+      max-width:1100px;
+      margin:0 auto;
+      padding:32px 20px 60px;
+    }
+    .slide{
+      min-height:88vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      padding:40px;
+      margin:0 0 24px;
+      background:rgba(18,25,51,.92);
+      border:1px solid var(--border);
+      border-radius:24px;
+      box-shadow:0 10px 30px rgba(0,0,0,.25);
+      page-break-after:always;
+    }
+    h1,h2,h3{margin:0 0 16px}
+    h1{font-size:44px; line-height:1.05}
+    h2{font-size:34px; color:var(--accent)}
+    h3{font-size:22px; color:var(--accent2)}
+    p,li{
+      font-size:24px;
+      line-height:1.45;
+      color:var(--text);
+    }
+    ul{margin:12px 0 0 24px}
+    .muted{color:var(--muted)}
+    .grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:24px;
+    }
+    .box{
+      background:rgba(255,255,255,.04);
+      border:1px solid var(--border);
+      border-radius:18px;
+      padding:18px 20px;
+    }
+    .small li,.small p{font-size:20px}
+    .center{align-items:center; text-align:center}
+    .tag{
+      display:inline-block;
+      padding:8px 12px;
+      border-radius:999px;
+      background:rgba(122,162,255,.12);
+      color:var(--accent);
+      border:1px solid rgba(122,162,255,.25);
+      font-size:16px;
+      margin-bottom:14px;
+    }
+    @media print{
+      body{background:#fff}
+      .deck{max-width:none;padding:0}
+      .slide{
+        min-height:100vh;
+        border:none;
+        border-radius:0;
+        box-shadow:none;
+        margin:0;
+        background:#fff;
+        color:#111;
+      }
+      h2{color:#1d4ed8}
+      h3{color:#0f766e}
+      p,li{color:#111}
+      .muted{color:#444}
+      .box{border:1px solid #ddd;background:#fafafa}
+      .tag{color:#1d4ed8;border:1px solid #c7d2fe;background:#eef2ff}
+    }
+  </style>
+</head>
+<body>
+  <main class="deck">
+
+    <section class="slide center">
+      <div class="tag">MasterClass Elemar Jr. — Aula 2</div>
+      <h1>Arquitetura, Complexidade e IA</h1>
+      <p class="muted">Resumo em formato de apresentação</p>
+    </section>
+
+    <section class="slide">
+      <h2>Ideias centrais</h2>
+      <ul>
+        <li>Arquitetura de software lida com <strong>incerteza</strong>.</li>
+        <li>Em cenários complexos, a melhor solução aparece <strong>depois de experimentar</strong>.</li>
+        <li>IA ajuda principalmente ao <strong>reduzir o custo da experimentação</strong>.</li>
+        <li>É essencial separar <strong>estocástico</strong> de <strong>determinístico</strong>.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Framework Cynefin</h2>
+      <div class="grid small">
+        <div class="box">
+          <h3>Simples</h3>
+          <ul>
+            <li>Resposta conhecida</li>
+            <li>Alta previsibilidade</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Complicado</h3>
+          <ul>
+            <li>Dá para comparar alternativas</li>
+            <li>Decisão pode ser tomada antes</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Complexo</h3>
+          <ul>
+            <li>Mais de uma solução viável</li>
+            <li>A melhor só aparece depois do teste</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Caótico</h3>
+          <ul>
+            <li>Baixa previsibilidade</li>
+            <li>Foco em resposta rápida</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Arquitetura emergente</h2>
+      <ul>
+        <li>Não é improvisação.</li>
+        <li>É experimentação consciente.</li>
+        <li>Precisa ser rápida e barata.</li>
+        <li>Decisões devem ser adiadas até o <strong>último momento responsável</strong>.</li>
+        <li>Novas evidências devem ser avaliadas, não ignoradas.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Consciência situacional</h2>
+      <ul>
+        <li>Algumas respostas só aparecem com a solução rodando.</li>
+        <li>Planejamento abstrato não revela tudo.</li>
+        <li>Arquitetura não adivinha o futuro.</li>
+        <li>Arquitetura reduz incerteza por meio de experimentação.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Como a IA ajuda arquitetura</h2>
+      <ul>
+        <li>Valida hipóteses mais rápido.</li>
+        <li>Barateia protótipos e testes.</li>
+        <li>Acelera aprendizado.</li>
+        <li>Ajuda em prototipação, documentação e exploração de alternativas.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Pergunta central ao usar IA para código</h2>
+      <p><strong>Existe contexto suficiente para a IA fazer um bom trabalho?</strong></p>
+      <ul>
+        <li>Melhor contexto gera melhor saída.</li>
+        <li>Isso exige documentação melhor.</li>
+        <li>Também exige padrões explícitos e menos tradição oral.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Arquivos de regra</h2>
+      <ul>
+        <li>Arquivos Markdown com instruções para a LLM.</li>
+        <li>Definem padrões, nomenclatura, estrutura e restrições.</li>
+        <li>Podem atuar em nível de organização, projeto ou pasta.</li>
+        <li>Servem para escrita e revisão.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Skills / procedimentos</h2>
+      <ul>
+        <li>Sequências de passos para execução controlada.</li>
+        <li>Combinam LLM com scripts.</li>
+        <li>LLM planeja; script executa.</li>
+        <li>Resultado: menor custo e mais previsibilidade.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Estocástico vs determinístico</h2>
+      <div class="grid small">
+        <div class="box">
+          <h3>Estocástico</h3>
+          <ul>
+            <li>Resultados variam</li>
+            <li>Bom para síntese e interpretação</li>
+            <li>Não garante repetibilidade</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Determinístico</h3>
+          <ul>
+            <li>Mesmo input, mesmo output</li>
+            <li>Bom para validação e execução exata</li>
+            <li>Mais previsível e barato</li>
+          </ul>
+        </div>
+      </div>
+      <p><strong>Regra prática:</strong> substituir estocástico por determinístico sempre que possível.</p>
+    </section>
+
+    <section class="slide">
+      <h2>Caso prático: mover arquivos</h2>
+      <ul>
+        <li>A IA reescreveu arquivos em vez de movê-los.</li>
+        <li>Isso elevou muito o consumo de créditos.</li>
+        <li>Lição: tarefas operacionais devem usar script.</li>
+        <li>LLM deve orientar ou gerar o script, não executar tudo diretamente.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Onde usar LLM</h2>
+      <ul>
+        <li>Análise textual</li>
+        <li>Interpretação</li>
+        <li>Geração de hipóteses</li>
+        <li>Síntese</li>
+        <li>Revisão qualitativa</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Onde não usar LLM</h2>
+      <ul>
+        <li>Validações exatas</li>
+        <li>Checagens estruturais</li>
+        <li>Sintaxe e análise de compilação</li>
+        <li>Operações repetíveis</li>
+        <li>Tarefas que scripts ou ferramentas já resolvem melhor</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Ferramentas determinísticas</h2>
+      <ul>
+        <li>Scripts</li>
+        <li>Lint</li>
+        <li>Compilador</li>
+        <li>Análise estática</li>
+        <li>LSP</li>
+        <li>Parser e schema validator</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Memória e contexto</h2>
+      <p><strong>LLMs são gênios com amnésia.</strong></p>
+      <ul>
+        <li>Precisam de memória episódica e semântica.</li>
+        <li>Busca estruturada é melhor que contexto bruto gigante.</li>
+        <li>Boa engenharia de contexto melhora qualidade e reduz custo.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Planejamento antes da execução</h2>
+      <ul>
+        <li>Pedir plano antes melhora o resultado.</li>
+        <li>Ajuda a revisar a abordagem.</li>
+        <li>Permite quebrar tarefas grandes em menores.</li>
+        <li>Reduz retrabalho.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Validação da saída</h2>
+      <ul>
+        <li>Saída estocástica precisa de checagem determinística.</li>
+        <li>Exemplos:
+          <ul>
+            <li>parser Markdown/JSON</li>
+            <li>lint</li>
+            <li>schema</li>
+            <li>checks automatizados</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Temperatura</h2>
+      <ul>
+        <li>Alta: mais criatividade e mais variação.</li>
+        <li>Baixa: mais previsibilidade e menos variação.</li>
+        <li>Temperatura baixa não torna o modelo determinístico.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Documentação para humanos e para IA</h2>
+      <ul>
+        <li>Nem toda documentação do futuro será para humanos.</li>
+        <li>Parte dela pode ser pensada para consumo de máquina.</li>
+        <li>Formatos estruturados podem ser melhores que Markdown/HTML em alguns casos.</li>
+        <li>Exemplo: JSON estruturado para reduzir custo de tokens.</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Heurística 10-80-10</h2>
+      <ul>
+        <li>10% humano no início</li>
+        <li>80% IA ou automação</li>
+        <li>10% revisão humana final</li>
+      </ul>
+      <p class="muted">Uma boa referência prática para uso saudável de IA.</p>
+    </section>
+
+    <section class="slide">
+      <h2>Frases-chave</h2>
+      <ul>
+        <li>Arquitetura é lidar com incerteza.</li>
+        <li>Experimente cedo, rápido e barato.</li>
+        <li>IA reduz custo de experimentação.</li>
+        <li>Onde cabe script, coloque script.</li>
+        <li>Onde cabe lint, coloque lint.</li>
+        <li>Valide deterministicamente saídas estocásticas.</li>
+      </ul>
+    </section>
+
+    <section class="slide center">
+      <h2>Resumo final</h2>
+      <p>
+        O melhor uso da IA em engenharia não é deixá-la fazer tudo,
+        mas encaixá-la corretamente em um sistema bem projetado.
+      </p>
+    </section>
+
+  </main>
+</body>
+</html>
+```
