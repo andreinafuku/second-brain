@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "60d7942e21bd6829",
+        "id": "3d2c5bd107cf3340",
         "type": "tabs",
         "children": [
           {
-            "id": "236f04cf94fa44aa",
+            "id": "019ed6f90ba7302c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Pesquisa/litellm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "litellm"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 597.5
+    "width": 332.5
   },
   "right": {
     "id": "d22c8ae13b63ffb1",
@@ -179,43 +183,48 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "236f04cf94fa44aa",
+  "active": "019ed6f90ba7302c",
   "lastOpenFiles": [
-    "Pesquisa/litellm-como-ai-gateway.md",
-    "CLAUDE.md.tmp.15764.1774741940630",
-    "Pesquisa/ai-gateway-implementacoes-modernas.md.tmp.15764.1774741937885",
-    "Glossario/pii-personally-identifiable-information.md.tmp.15764.1774741903883",
-    "Pesquisa/litellm-como-ai-gateway.md.tmp.15764.1774741892971",
-    "Glossario/pii-personally-identifiable-information.md",
-    "PII-personally-identifiable-information.md",
-    "Pesquisa/ai-gateway-implementacoes-modernas.md",
-    "Pesquisa/question-is-liteLLM-ai-gateway-implementation.md",
-    "Referencias/referencia-litellm-docs.md",
-    "Pesquisa/litellm.md",
-    "Pesquisa/estrategias-modernizacao-sistemas.md",
     "Pesquisa/ai-gateway.md",
-    "Pesquisa/ai-gateway/ai-gateway.md",
-    "Welcome.md",
-    "2026-03-08.md",
-    "Ideias/WSL2-Setup-Guide-IntelligencePortal.md",
-    "Pesquisa/modernizacao-sistemas/estrategias-modernizacao-sistemas.md",
-    "Pesquisa/modernizacao-sistemas",
-    "Pesquisa/ai-gateway/ai-gateway-modern-implementation.md",
-    "Pesquisa/ai-gateway/Sem título.md",
-    "working/OCI/criando-cluster-oke/01-criar-cluster-oke-vcn-customizada.md",
-    "guia-do-vault.md",
-    "learning/ai-first-applications/chatgpt - annonimization and miminal context.md",
-    "Pesquisa/ai-gateway/Sem título.base",
-    "Templates/template-pesquisa.md",
-    "Pesquisa/ai-gateway/Sem título.canvas",
-    "Pesquisa/ai-gateway",
-    "guia-do-vault.md.tmp.15764.1774698992826",
-    "Diario/2026-03-28.md.tmp.15764.1774698901976",
-    "Referencias/referencia-martin-fowler-strangler.md.tmp.15764.1774698891443",
-    "CLAUDE.md",
-    "Referencias/referencia-aws-ai-gateway.md",
-    "Glossario/strangler-fig-pattern.md",
-    "Glossario/rate-limiting.md",
-    "Glossario/branch-by-abstraction.md"
+    "Diario/Sem título.md",
+    "Templates/template-diario.md",
+    "Diario/2026-03-28.md",
+    "Glossario/indice-glossario.md",
+    "Projetos/plataforma-oci-oke/projeto-plataforma-oci-oke.md",
+    "Arquitetura/arquitetura-rede-oke-xrt-interno.md",
+    "Projetos/plataforma-oci-oke/conceder-acesso-usuario-oke.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/README.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/07-diagrama-arquitetura-rede.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/06-migrar-aplicacao.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/05-configurar-monitoring.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/04-configurar-cert-manager.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/03-configurar-ingress-nginx.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/02-configurar-local-peering-gateway.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke/01-criar-cluster-oke-vcn-customizada.md",
+    "Arquitetura/estrategia-versionamento-imagens-oci-oke.md",
+    "Projetos/plataforma-oci-oke/configurando-acesso-ocir.md",
+    "Projetos/plataforma-oci-oke/deploy-oke.md",
+    "Projetos/plataforma-oci-oke/criando-cluster-oke",
+    "Projetos/plataforma-oci-oke",
+    "Templates/template-adr.md",
+    "Templates/template-projeto.md",
+    "Referencias/mapa-aulas-elemar-masterclasses.canvas",
+    "rotina-revisao-semanal-do-vault.md",
+    "Templates/template-revisao-semanal.md",
+    "Projetos/indice-projetos.md",
+    "Pesquisa/indice-pesquisa.md",
+    "Pesquisa/auth0-lesson-01-what-is-auth0.md",
+    "Pesquisa/auth0-lesson-06-jwt-deep-dive.md.tmp.45916.1776114886892",
+    "Pesquisa/auth0-lesson-05-tokens.md.tmp.45916.1776114882708",
+    "Pesquisa/auth0-lesson-05-tokens.md.tmp.45916.1776114880798",
+    "Pesquisa/auth0-lesson-05-tokens.md.tmp.45916.1776114880085",
+    "Pesquisa/auth0-lesson-04-auth-flows.md.tmp.45916.1776114877039",
+    "Pesquisa/auth0-lesson-04-auth-flows.md.tmp.45916.1776114876132",
+    "Pesquisa/auth0-lesson-04-auth-flows.md.tmp.45916.1776114875162",
+    "Pesquisa/auth0-lesson-01-what-is-auth0.md.tmp.45916.1776114863831",
+    "learning/Sem título.canvas",
+    "Sem título 1.canvas",
+    "Sem título.canvas",
+    "Pesquisa/ai-gateway/Sem título.canvas"
   ]
 }

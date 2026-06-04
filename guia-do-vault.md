@@ -75,6 +75,7 @@ A nota diária é o ponto de entrada do vault. Tudo começa aqui. Abra-a no iní
 
 **Pasta:** `Pesquisa/`
 **Template:** `Templates/template-pesquisa.md`
+**Índice:** [[indice-pesquisa]]
 
 Aqui vivem os estudos que você faz sobre um tema específico. Cada nota de pesquisa responde à pergunta: **"O que eu sei sobre esse assunto e como posso usar esse conhecimento?"**
 
@@ -114,6 +115,7 @@ Aqui vivem os estudos que você faz sobre um tema específico. Cada nota de pesq
 
 **Pasta:** `Referencias/`
 **Template:** `Templates/template-referencia.md`
+**Índice:** [[indice-referencias]]
 
 Referências são ponteiros para conhecimento externo — artigos, livros, vídeos, repositórios, palestras. A nota de referência **não é uma cópia** do conteúdo original, mas sim o seu resumo pessoal com a conexão ao seu contexto.
 
@@ -142,6 +144,7 @@ Referências são ponteiros para conhecimento externo — artigos, livros, víde
 
 **Pasta:** `Glossario/`
 **Template:** `Templates/template-glossario.md`
+**Índice:** [[indice-glossario]]
 
 O glossário é o dicionário técnico pessoal do vault. Cada termo tem definição, contexto de uso e um exemplo prático. Quando você ou alguém do time perguntar "o que é X?", a resposta está aqui.
 
@@ -162,46 +165,7 @@ O glossário é o dicionário técnico pessoal do vault. Cada termo tem definiç
 ### Dicas práticas
 
 - **Use aliases no front-matter.** Isso permite que o Obsidian sugira o termo quando você digitar qualquer variação do nome
-- **Mantenha definições curtas.** Se precisar de mais prof
-# 2026-03-28
-
-## Foco do dia
-
-%%Qual o objetivo principal de hoje?%%
-
--
-
-## Tarefas
-
-- [ ]
-
-## Reuniões / Interações
-
-%%Pontos importantes de reuniões, 1:1s, alinhamentos%%
-
--
-
-## Ideias e insights
-
-%%Captura rápida de qualquer ideia que surgiu durante o dia%%
-
--
-
-## O que aprendi hoje
-
--
-
-## Review do dia
-
-> [!tip] O que foi bem?
->
-
-> [!warning] O que posso melhorar?
->
-
-> [!note] Nota para amanhã
->
-undidade, crie uma nota de pesquisa e linke
+- **Mantenha definições curtas.** Se precisar de mais profundidade, crie uma nota de pesquisa e linke
 - **O glossário é ótimo para onboarding.** Novos membros do time podem consultar termos que surgem em reuniões
 
 > [!example] Exemplos no vault
@@ -215,6 +179,7 @@ undidade, crie uma nota de pesquisa e linke
 ## Projetos — Notas por projeto ativo
 
 **Pasta:** `Projetos/`
+**Índice:** [[indice-projetos]]
 
 Cada projeto ativo pode ter uma pasta ou nota dedicada. Aqui você registra decisões, contexto, status e links relevantes de cada projeto que está tocando.
 
@@ -310,6 +275,9 @@ Os templates disponíveis são:
 | `template-pesquisa.md`       | Estudo aprofundado sobre um tema           |
 | `template-referencia.md`     | Fonte externa (artigo, livro, vídeo, repo) |
 | `template-glossario.md`      | Termo técnico com definição e contexto     |
+| `template-revisao-semanal.md`| Revisão semanal e higiene do vault         |
+| `template-projeto.md`        | Nota índice de projeto ativo               |
+| `template-adr.md`            | Registro de decisão arquitetural           |
 
 ### Configuração no Obsidian
 
@@ -319,6 +287,17 @@ Os templates disponíveis são:
 
 > [!tip] Alternativa: Templater
 > O plugin da comunidade **Templater** oferece mais poder (datas automáticas, prompts interativos). Se quiser automação, vale a instalação.
+
+## Notas índice
+
+- [[indice-pesquisa]] — mapa das trilhas de estudo
+- [[indice-referencias]] — mapa das fontes externas
+- [[indice-glossario]] — mapa dos termos técnicos do vault
+- [[indice-projetos]] — mapa dos projetos ativos
+
+## Rotinas
+
+- [[rotina-revisao-semanal-do-vault]] — fluxo semanal para consolidar, limpar e conectar notas
 
 ---
 

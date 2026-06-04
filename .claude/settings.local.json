@@ -2,7 +2,29 @@
   "permissions": {
     "allow": [
       "Bash(defuddle parse:*)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(curl:*)",
+      "WebSearch",
+      "WebFetch(domain:www.pluggy.ai)",
+      "WebFetch(domain:docs.pluggy.ai)",
+      "WebFetch(domain:openfinancebrasil.atlassian.net)",
+      "WebFetch(domain:openfinancebrasil.org.br)",
+      "WebFetch(domain:rtm.net.br)",
+      "WebFetch(domain:www.mattosfilho.com.br)",
+      "WebFetch(domain:cfc.org.br)",
+      "WebFetch(domain:www.raidiam.com)",
+      "WebFetch(domain:nasajon.com.br)",
+      "WebFetch(domain:flashapp.com.br)",
+      "WebFetch(domain:openbankingbrasil.com.br)",
+      "WebFetch(domain:auth0.com)",
+      "WebFetch(domain:dev.auth0.com)",
+      "WebFetch(domain:workos.com)",
+      "WebFetch(domain:portswigger.net)",
+      "Bash(mv:*)",
+      "Bash(cmd.exe:*)",
+      "Skill(obsidian:obsidian-markdown)",
+      "Skill(commit-commands:commit)",
+      "PowerShell(Get-Command *)"
     ]
   },
   "enabledPlugins": {
