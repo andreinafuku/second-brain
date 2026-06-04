@@ -11,6 +11,7 @@ tags:
   - tecnologia
   - ddd
   - algoritmos
+  - design-patterns
   - status/consolidado
 date: 2026-05-26
 ---
@@ -175,16 +176,7 @@ date: 2026-05-26
 |   54 | **Union-Find: Conjuntos Disjuntos**                                                             | Estruturas para conectividade  | Apresenta Union-Find, ou Disjoint Set Union, para gerenciar componentes conectados e operações de união/busca eficientes.                            |
 |   55 | **Eleição de Coordenador: Liderança e Consenso**                                                | Coordenação distribuída        | Discute algoritmos e estratégias para escolha de coordenador/líder em sistemas distribuídos.                                                         |
 
-## Cursos Rápidos
-
-| Curso | Título                                                                             | Eixo principal              | Descrição resumida                                                                                                                                                                  |
-| ----: | ---------------------------------------------------------------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     1 | **Introdução à Análise de Algoritmos e Big-O**                                     | Fundamentos de algoritmos   | Apresenta a notação Big-O como ferramenta para avaliar a complexidade de algoritmos em relação ao tamanho da entrada, ajudando a identificar soluções mais eficientes e escaláveis. |
-|     2 | **Utilizando o Notion do Jeito Certo**                                             | Produtividade e organização | Ensina a usar o Notion de forma estruturada para organizar informações, tarefas, estudos, projetos, anotações e gestão do conhecimento pessoal ou profissional.                     |
-|     3 | **Teoria dos Jogos: Estratégias Avançadas para a Tomada de Decisões Corporativas** | Estratégia e decisão        | Explora conceitos de Teoria dos Jogos aplicados ao ambiente corporativo, ajudando a analisar incentivos, escolhas estratégicas, competição, cooperação e negociação.                |
-|     4 | **Utilizando o Padrão Builder do Jeito Certo**                                     | Design Patterns             | Aprofunda o padrão Builder como técnica para construir objetos complexos de forma clara, segura, expressiva e alinhada a boas práticas de design.                                   |
-
-
+## Design Patterns
 
 | Aula | Masterclass                                                                                         | Eixo principal                |
 | ---: | --------------------------------------------------------------------------------------------------- | ----------------------------- |
@@ -212,3 +204,12 @@ date: 2026-05-26
 |   22 | **AOP e Decorator: Dinamismo e Modularidade em Aplicações Modernas**                                | Cross-cutting concerns        |
 |   23 | **Padrões Command e Transaction Script em Bancos de Dados**                                         | Aplicação e persistência      |
 |   24 | **Composite, Decorator, e Flyweight em Sistemas de Alto Desempenho**                                | Performance e estrutura       |
+
+## Cursos Rápidos
+
+| Curso | Título                                                                             | Eixo principal              | Descrição resumida                                                                                                                                                                  |
+| ----: | ---------------------------------------------------------------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     1 | **Introdução à Análise de Algoritmos e Big-O**                                     | Fundamentos de algoritmos   | Apresenta a notação Big-O como ferramenta para avaliar a complexidade de algoritmos em relação ao tamanho da entrada, ajudando a identificar soluções mais eficientes e escaláveis. |
+|     2 | **Utilizando o Notion do Jeito Certo**                                             | Produtividade e organização | Ensina a usar o Notion de forma estruturada para organizar informações, tarefas, estudos, projetos, anotações e gestão do conhecimento pessoal ou profissional.                     |
+|     3 | **Teoria dos Jogos: Estratégias Avançadas para a Tomada de Decisões Corporativas** | Estratégia e decisão        | Explora conceitos de Teoria dos Jogos aplicados ao ambiente corporativo, ajudando a analisar incentivos, escolhas estratégicas, competição, cooperação e negociação.                |
+|     4 | **Utilizando o Padrão Builder do Jeito Certo**                                     | Design Patterns             | Aprofunda o padrão Builder como técnica para construir objetos complexos de forma clara, segura, expressiva e alinhada a boas práticas de design.                                   |

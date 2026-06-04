@@ -11,10 +11,14 @@
             "id": "019ed6f90ba7302c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Pesquisa/litellm.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "litellm"
             }
           }
         ]
@@ -181,6 +185,7 @@
   },
   "active": "019ed6f90ba7302c",
   "lastOpenFiles": [
+    "Pesquisa/ai-gateway.md",
     "Diario/Sem título.md",
     "Templates/template-diario.md",
     "Diario/2026-03-28.md",
@@ -209,7 +214,6 @@
     "Projetos/indice-projetos.md",
     "Pesquisa/indice-pesquisa.md",
     "Pesquisa/auth0-lesson-01-what-is-auth0.md",
-    "Referencias/indice-referencias.md",
     "Pesquisa/auth0-lesson-06-jwt-deep-dive.md.tmp.45916.1776114886892",
     "Pesquisa/auth0-lesson-05-tokens.md.tmp.45916.1776114882708",
     "Pesquisa/auth0-lesson-05-tokens.md.tmp.45916.1776114880798",

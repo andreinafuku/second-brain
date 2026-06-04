@@ -23,7 +23,8 @@
       "Bash(mv:*)",
       "Bash(cmd.exe:*)",
       "Skill(obsidian:obsidian-markdown)",
-      "Skill(commit-commands:commit)"
+      "Skill(commit-commands:commit)",
+      "PowerShell(Get-Command *)"
     ]
   },
   "enabledPlugins": {
