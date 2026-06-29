@@ -44,6 +44,7 @@ Mapa das notas de estudo aprofundado do vault. Use esta nota para navegar por te
 - [[open-finance-brasil]]
 - [[pluggy-open-finance-api]]
 - [[conciliacao-bancaria]]
+- [[guia-estudos-tesouraria-open-finance]]
 
 ## Modernizacao e Estrategia
 

@@ -17,12 +17,26 @@ Mapa dos termos tecnicos registrados no vault. Use esta nota para navegar pelo d
 
 - [[anti-corruption-layer]]
 - [[branch-by-abstraction]]
+- [[ddd-domain-driven-design]]
+- [[load-bearing]]
+- [[modelagem-orientada-a-eventos]]
 - [[strangler-fig-pattern]]
 
 ## Seguranca e Dados
 
+- [[maker-checker]]
 - [[pii-personally-identifiable-information]]
 - [[rate-limiting]]
+
+## Financeiro e Integracao
+
+- [[cash-pooling]]
+- [[open-finance]]
+
+## Produto e UX
+
+- [[cockpit]]
+- [[today-at-a-glance]]
 
 ## Como usar este indice
 

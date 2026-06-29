@@ -26,6 +26,11 @@ Mapa das fontes externas registradas no vault. Esta nota ajuda a localizar rapid
 
 - [[referencia-aulas-elemar-masterclasses]]
 
+## Produtos e Sistemas
+
+- [[referencia-pluggy]]
+- [[referencia-universe]]
+
 ## Como usar este indice
 
 - Sempre que uma pesquisa citar uma fonte nova, registre a referencia e adicione aqui.
