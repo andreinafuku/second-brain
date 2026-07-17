@@ -24,7 +24,8 @@
       "Bash(cmd.exe:*)",
       "Skill(obsidian:obsidian-markdown)",
       "Skill(commit-commands:commit)",
-      "PowerShell(Get-Command *)"
+      "PowerShell(Get-Command *)",
+      "Bash(git checkout *)"
     ]
   },
   "enabledPlugins": {
